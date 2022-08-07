@@ -2,15 +2,21 @@ import logo from './logo.svg';
 import './App.css';
 import Navbar from '../src/Components/navbar';
 import Home from '../src/Components/home';
-import Banner from '../src/Components/banner';
 import Footer from '../src/Components/footer';
+ import Card from '../src/Components/card';
+//  import { BrowserRouter, Route, Routes, Router } from "react-router-dom";
+
 function App() {
   return (
     <div className="App">
       <Navbar/>
-      {/* <Home/> */}
-      {/* <Banner/> */}
+      <Home/>
+      {/* <Routes>
+                 <Route exact path="/card" element={<Card />} />
+                </Routes> */}
       <Footer/>
+              
+     
     </div>
   );
 }
