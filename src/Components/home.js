@@ -1,5 +1,7 @@
 import React from 'react';
 import './home.css';
+import Navbar from "./navbar";
+import Footer from "./footer";
 import plant from '../Components/img/plant.jpg';
 import banner from '../Components/img/banner.jpg';
 import limg from '../Components/img/limg.jpg';
@@ -10,7 +12,10 @@ import {BsArrowLeftCircle, BsArrowRightCircle, BsFillArrowRightCircleFill} from 
 
 function home() {
   return (
+    <>
+    <Navbar/>
     <div className="content">
+        <div className="space"></div>
    <div className="conatiner">
     
         <div className="left-container">
@@ -86,10 +91,12 @@ greenhouse to your home.</div>
             <div><button>Suscribe</button></div>
         </div>
      </div>
+  
 
 
  </div>
-   
+ <Footer/>
+ </>
   
   )
 }

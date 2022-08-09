@@ -1,0 +1,45 @@
+body { 
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    height: auto;
+    margin-top: 65px;
+    background: -3px -3px 9px  #aaa9a9a2 ,
+    3px 3px 7px rgba(147,149,151,0.67);
+    backdrop-filter: blur(20px);
+   
+   
+   
+}
+
+/*  */
+.heading{
+    width: 40%;
+    display:flex;
+    justify-content:space-between;
+    border:1px solid red;
+    margin-left: 28%;
+    padding:20px;
+
+}
+.cardImg{
+    width: 40%;
+    display:flex;
+    justify-content:space-between;
+    margin-left: 28%;
+    height:350px;
+}
+
+.cardImg img{
+    object-fit: cover;
+    height:500px;
+    width: 100%;
+}
+.banner-image{
+    object-fit: cover;
+    height:500px;
+    width: 100%;
+}
+

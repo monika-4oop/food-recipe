@@ -1,0 +1,82 @@
+body { 
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    height: auto;
+    margin-top: 65px;
+}
+/* .heading_continaer{
+    width:  100%;
+    display: flex;
+   justify-content: center;
+   letter-spacing: 1px;
+} */
+/*  */
+.heading{
+    width: 40%;
+    display:flex;
+    justify-content:space-between;
+    /* border:1px solid red; */
+    margin-left: 28%;
+    padding:20px;
+
+}
+.box-card{
+    width: 40%;
+    display:flex;
+    justify-content:space-between;
+    /* border:1px solid red; */
+    margin-left: 28%;
+    height:350px;
+}
+
+.box-card img{
+    object-fit: cover;
+    height:350px;
+    width: 100%;
+}
+.banner-image{ 
+    object-fit: cover;
+    height:350px;
+    width: 100%;
+}
+.recipe{
+    width: 40%;
+    display:flex;
+    justify-content:space-between;
+    height:250px; 
+    position: absolute;
+    padding-left: 5px;
+    height: 27px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #2B2744;
+    margin-top: 3%;
+}
+.steps{
+    width: 40%;
+    display:flex;
+    justify-content:space-between;
+    margin-left: 29%;
+    height:350px; 
+    position: absolute;
+    height: 400px;
+   font-family: 'Inter';
+   font-family: 'Inter';
+   font-style: normal;
+   font-size: 14px;
+   line-height: 17px;
+   margin-top: 5%;
+}
+.steping{
+    margin-top:40px;
+}
+li{
+    margin-top:15px;
+}
+

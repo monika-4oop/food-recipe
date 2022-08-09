@@ -23,8 +23,6 @@ body{
     margin-left: 5%;
     height:220px;
     margin-top: 30px;
-}
-.upper-box {
 font-family: Belleza;
 font-size: 96px;
 font-weight: 400;
@@ -128,7 +126,6 @@ color:grey;
 }
 .texting div:nth-child(1){
     width: 38%;
-  
     margin-left: 30px;
     font-family: Aeonik;
 font-size: 24px;
@@ -140,7 +137,6 @@ text-align: left;
 }
 .texting div:nth-child(2){
     width: 41%;
-  
    margin-right:8% ;
     font-family: Lora;
 font-size: 36px;
@@ -151,7 +147,7 @@ text-align: left;
 }
 .banner-container div{
     width:100%;
-    height:600px; 
+    height:auto; 
     background: linear-gradient(
         to bottom,
         white 0%,
@@ -163,6 +159,10 @@ text-align: left;
 .banner{
     margin-top:5%; 
 }
+.banner img{
+    width:90%;
+    margin-left: 5%;
+ }
 .banner-lastdiv{
     display: flex;
     justify-content:space-between;
@@ -261,7 +261,7 @@ letter-spacing: 0em;
 text-align: left;
 width:400px;
 padding-left: 30%;
-margin-top: -20px;
+/* margin-top: -20px; */
 
 }
 .checking{
@@ -319,4 +319,75 @@ margin-top:20px;
     background: rgba(1, 1, 1, 1);
     color:white;
 }
+@media screen and (max-width: 500px) {
+    .space{
+      height: 290px;
+    }
+  .upper-box{
+      font-size: 180%;
+      line-height: 85%;
+  }
+  .logoimg{
+      margin: 35% 0 0 30%;
+      height: 250px !important;
+  }
+  .button-box{
+      margin: -35% 0 0 2% !important;
+  }
+  .third-heading{
+      margin: 2% 0 0 -4%;
+  }
+  .texting{
+      margin: auto;
+      width: 100%;
+      margin: 15% 0 0 0;
+    
+  }
+  .upper-text{
+      font-size:150% !important;
+      margin-left: 0%;
+      line-height: 90% !important;
+  }
+  .lower-text{
+      font-size:150% !important;
+      margin: 0 -10% 0 10% !important;
+      line-height: 100% !important;
+  }
+  .banner-container{
+    height:184px;
+    width: 100%;
+  }
+  .banner>div>img{
+      width: 125%;
+      margin:5%;
+      
+  }
+  .banner img{
+    width:90%;
+    margin-left: 10%;
+ }
+  .banner-lastdiv{
+
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background:grey; 
+    padding:10px;
+    width: 567px;
+
+}
+  .images{
+      width: 110%;
+      gap: 5%;
+  }
+  .l-image>img {
+      width: 200px;
+      height: 300px;
+  }
+  .r-image>img{
+      width: 200px;
+      height:300px;
+  }
+ 
+  }
 

@@ -7,7 +7,7 @@ function footer() {
   return (
     <div className="footer-div">
       <ul className="footerlist">
-          <li className="items">
+          <li className="items-icon">
             <div className="logo">
             <div><img src="https://thumbs.dreamstime.com/z/black-plant-sprout-icon-plant-eco-logo-plant-sprout-icon-plant-eco-logo-white-background-116061121.jpg" alt='logo'/>
             </div>
